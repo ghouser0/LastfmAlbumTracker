@@ -43,8 +43,8 @@ declare module '$env/static/private' {
 	export const GTK_MODULES: string;
 	export const XDG_SEAT: string;
 	export const PWD: string;
-	export const XDG_SESSION_DESKTOP: string;
 	export const LOGNAME: string;
+	export const XDG_SESSION_DESKTOP: string;
 	export const XDG_SESSION_TYPE: string;
 	export const npm_config_init_module: string;
 	export const SYSTEMD_EXEC_PID: string;
@@ -65,8 +65,8 @@ declare module '$env/static/private' {
 	export const TERM: string;
 	export const npm_package_name: string;
 	export const npm_config_prefix: string;
-	export const USER: string;
 	export const OPTIONFILE: string;
+	export const USER: string;
 	export const USERXSESSION: string;
 	export const DISPLAY: string;
 	export const npm_lifecycle_event: string;
@@ -88,6 +88,8 @@ declare module '$env/static/private' {
 	export const ALACRITTY_WINDOW_ID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_engine_strict: string;
+	export const OLDPWD: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -134,8 +136,8 @@ declare module '$env/dynamic/private' {
 		GTK_MODULES: string;
 		XDG_SEAT: string;
 		PWD: string;
-		XDG_SESSION_DESKTOP: string;
 		LOGNAME: string;
+		XDG_SESSION_DESKTOP: string;
 		XDG_SESSION_TYPE: string;
 		npm_config_init_module: string;
 		SYSTEMD_EXEC_PID: string;
@@ -156,8 +158,8 @@ declare module '$env/dynamic/private' {
 		TERM: string;
 		npm_package_name: string;
 		npm_config_prefix: string;
-		USER: string;
 		OPTIONFILE: string;
+		USER: string;
 		USERXSESSION: string;
 		DISPLAY: string;
 		npm_lifecycle_event: string;
@@ -179,6 +181,8 @@ declare module '$env/dynamic/private' {
 		ALACRITTY_WINDOW_ID: string;
 		npm_node_execpath: string;
 		npm_config_engine_strict: string;
+		OLDPWD: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
