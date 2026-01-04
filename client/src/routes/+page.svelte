@@ -1,12 +1,31 @@
-<h1 class="text-red-800">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+  import Button from '../lib/Button.svelte';
+  import LastForm from '../lib/Form.svelte';
+</script>
+
+
+<!-- actual website content is here -->
+<div class="main">
+  <div class="content">
+  	<p> PENIS </p>
+    <LastForm>last.fm username</LastForm>
+  </div>
+</div>
+<!-- website content ends -->
 
 
 
-<style lang="postcss">
-  @reference "tailwindcss";
+<style>
+  :global(body) {
+    background-color: #000000;
+  }
 
-  :global(html) {
-    background-color: theme(--color-gray-200);
+  .main {
+	margin: 12px;
+  }
+
+  .content {
+    display: flex;
+	justify-content: center;
   }
 </style>
