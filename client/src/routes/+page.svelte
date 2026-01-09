@@ -7,7 +7,6 @@
 <!-- actual website content is here -->
 <div class="main">
   <div class="content">
-  	<p> PENIS </p>
     <LastForm>last.fm username</LastForm>
   </div>
 </div>
